@@ -1,6 +1,0 @@
-2024-08-04 22:02:03.097 -04:00 [INF] Starting up the host
-2024-08-04 22:02:12.280 -04:00 [INF] HomeController.Index action method called
-2024-08-04 22:02:12.284 -04:00 [INF] This is a log message for the Index action.
-2024-08-04 22:07:18.452 -04:00 [INF] Starting up the host
-2024-08-04 22:07:27.784 -04:00 [INF] Logica.Ejecucion action LOGICA
-2024-08-04 22:07:27.788 -04:00 [INF] HomeController.Index action XXXXXXXXXX

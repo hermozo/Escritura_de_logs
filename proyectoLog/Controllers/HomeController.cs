@@ -1,3 +1,4 @@
+using Logica;
 using Logs;
 using Microsoft.AspNetCore.Mvc;
 using proyectoLog.Models;
@@ -21,8 +22,10 @@ namespace proyectoLog.Controllers
         public IActionResult Index()
         {
             _logica.Ejecucion();
-            _logica.Ejecucion();
-            _logica.Ejecucion();
+
+            Accion accion = new Accion();
+            accion.Index();
+
             Log.Verbose("This is a verbose message"); // Detalle muy fino
             Log.Debug("This is a debug message"); // Mensaje de depuración
             Log.Information("This is an informational message"); // Mensaje informativo

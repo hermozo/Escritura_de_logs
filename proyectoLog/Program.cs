@@ -17,7 +17,7 @@ namespace proyectoLog
                 var builder = WebApplication.CreateBuilder(args);
                 builder.Host.UseSerilog();
                 builder.Services.AddControllersWithViews();
-                builder.Services.AddScoped<ILogica, Logica>();
+                builder.Services.AddScoped<ILogica, Servicio>();
                 var app = builder.Build();
                 if (!app.Environment.IsDevelopment())
                 {

@@ -8,11 +8,11 @@ namespace Services
         void Ejecucion();
     }
 
-    public class Logica : ILogica
+    public class Servicio : ILogica
     {
-        private readonly ILogger<Logica> _logger;
+        private readonly ILogger<Servicio> _logger;
 
-        public Logica(ILogger<Logica> logger)
+        public Servicio(ILogger<Servicio> logger)
         {
             _logger = logger;
         }
